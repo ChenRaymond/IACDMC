@@ -69,8 +69,6 @@ public class MultiPointController implements IController {
         // } else {
         // localAction.setArgumentValue("Unit", "ABS_TIME");
         // }
-        // LogUtil.e(tag, "继续相对时间："+mUseRelTime);
-        // 测试解决播放暂停后时间不准确
         localAction.setArgumentValue("Unit", "ABS_TIME");
         localAction.setArgumentValue("Target", pausePosition);
         localAction.postControlAction();
