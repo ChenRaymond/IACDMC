@@ -39,9 +39,6 @@ public class StartPageActivity extends BaseActivity implements OnClickListener{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_start_page);
         mContext = this;
-        String a = "";
-        if(!TextUtils.isEmpty(a) && a.substring(0, 1).equals("\""))
-            Log.d("Chen Raymond", "XX");
         findView();
     }
 
